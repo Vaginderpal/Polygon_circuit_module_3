@@ -13,7 +13,7 @@ To generate and verify zero-knowledge proofs for your circuits, follow these ste
 
 Define your circuit in the circuits folder.
 
-Create an input JSON file in the Proof folder, specifying the inputs to your circuit.
+Create an input.JSON file in the Proof folder, specifying the inputs to your circuit.
 
 Run the genProof.js script:
 
