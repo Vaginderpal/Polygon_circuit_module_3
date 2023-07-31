@@ -8,6 +8,19 @@ This project implements a logical gate circuit using the circom programming lang
 
 The goal of the project is to prove that you know the inputs A=0 and B=1 that yield a 0 output.
 
+## Usage
+To generate and verify zero-knowledge proofs for your circuits, follow these steps:
+
+Define your circuit in the circuits folder.
+
+Create an input JSON file in the Proof folder, specifying the inputs to your circuit.
+
+Run the genProof.js script:
+
+node genProof.js
+
+This will compile our circuit, calculate the witness, and generate the proof and public signals.
+
 ## Compile
 1. npm i
 2. npx hardhat circom :- This will generate the out file with circuit intermediaries and geneate the MultiplierVerifier.sol contract.
