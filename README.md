@@ -3,11 +3,8 @@ This repository contains the imlementation of the given circuit diagram using ci
 
 ## Description
 This project implements a logical gate circuit using the circom programming language. The circuit implements the following truth table:
-A B X Y Q
-0 0 0 1 1
-0 1 0 0 0
-1 0 0 1 1
-1 1 1 0 1
+
+![image](https://github.com/Vaginderpal/Polygon_circuit_module_3/assets/137271458/fe2ebb38-ada0-45e4-afff-2c6b6b073d85)
 
 The goal of the project is to prove that you know the inputs A=0 and B=1 that yield a 0 output.
 
