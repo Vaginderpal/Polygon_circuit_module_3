@@ -41,4 +41,4 @@ npx hardhat run scripts/deploy.ts This script does 4 things
 5. Now run the following command in your Terminal npx hardhat run scripts/deploy.ts --network mumbai This will compile the solidity file.
 
 # Author
-Vaginderpa Singh Brar
+Vaginderpal Singh Brar
